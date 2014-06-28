@@ -10,4 +10,9 @@ sourceSets {
             srcDir 'src/main/resource'
         }
     }
+    test {
+        java {
+            srcDir 'src/test/java'
+        }
+    }
 }
